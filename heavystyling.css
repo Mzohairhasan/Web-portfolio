@@ -57,6 +57,7 @@ nav{
     margin: 0px 12px;
     font-weight: bold;
 }
+/*personal info*/
 .me_container{
     display: flex;
     flex-direction: column;
@@ -64,6 +65,11 @@ nav{
     max-width: 500px;
     margin: 0 auto; /*centers it all*/
     text-align: center;
+}
+
+.abtme-info{
+    display: flex;
+    flex-direction: column;
 }
 .pic-crop{
     width: 100px;
@@ -93,4 +99,14 @@ nav{
     color: black;
     text-decoration: none; /*there is a few weird lines when using font awesome which could be removed by using this*/
     padding: 0px 16px;
+}
+
+.undraw-img-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.abtme-img{
+    width: 100%;
 }
